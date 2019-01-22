@@ -23,14 +23,13 @@ export class SearchBar extends Component {
     return (
       <div className="search-bar ui segment">
         <form onSubmit={this.onSearchSubmit} className="ui form">
-          <label>Video Search</label>
+          <label>Youtube Search</label>
           <input
             value={this.state.term}
             onChange={this.onInputChange}
             type="text"
-            placeholder="Please enter the video title"
+            placeholder="Please enter a video title"
           />
-          <button>Search</button>
         </form>
       </div>
     );
